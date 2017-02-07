@@ -1,22 +1,72 @@
+h1 {
+  text-align: right;
+}
+
+ #wrapper {
+  margin: auto;
+  padding: 1rem;
+  width: 80%;
+  height: 100%;
+  box-shadow: 2px 2px 2px #999;
+}
+
+nav {
+  margin: auto;
+  padding-bottom: 1rem;
+  max-width: 100%;
+  text-align: center;
+  list-style: none;
+  border-bottom: 1px solid #999;
+}
+
+nav li {
+  display: inline;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #999;
+  box-shadow: -1px -1px -1px #999;
+}
+
+nav a {
+  margin: 1rem;
+  padding: 5px;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+}
+@media only screen
+  and (min-width:1024px) {
+}
+
+@media only screen 
+  and (min-width:360px)
+  and (max-width:1024px) {
+    
+  nav li {
+    display: inline;
+  }
+    
+  nav a {
+    margin: 0.1rem;
+  }
+}
 
 @media only screen and (max-width: 360px) {
   
-  div.wrapper {
+  #wrapper {
     width: 100%;
-  }
-  
-  header {
-    text-align: center;
+    padding: 0rem;
+    box-shadow: none;
   }
   
   nav {
-    text-align: center;
-    width: auto;
-    list-style: none;
+    width: 100%;  
   }
   
-  nav li a {
-    text-decoration: none;
+  nav li {
+    display: block;
+    margin-bottom: .5rem;
   }
   
 }
