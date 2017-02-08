@@ -11,7 +11,11 @@ body {
   background-image: url(../images/world-map-background-1448020488w5o.jpeg);
   background-repeat: no-repeat;
   background-position: center;
+<<<<<<< HEAD
   
+=======
+  opacity: 0.2;
+>>>>>>> 04678f6c11e7f9955a252a560c07ea1a8a39b192
 }
  #wrapper {
   margin: auto;
