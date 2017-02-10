@@ -1,16 +1,15 @@
 html {
   margin: auto;
   padding: 0rem;
+  height: 100%;
+  background-image: url(../images/world-map-background-1448020488w5o.jpeg);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 h1 {
   text-align: right;
-}
-
-body {
-  background-image: url(../images/world-map-background-1448020488w5o.jpeg);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
  #wrapper {
@@ -101,6 +100,7 @@ footer p {
     margin-bottom: 1rem;
     padding: .2rem;
   }
+ 
 }
 
 @media only screen and (max-width: 360px) {
