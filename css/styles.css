@@ -11,12 +11,8 @@ body {
   background-image: url(../images/world-map-background-1448020488w5o.jpeg);
   background-repeat: no-repeat;
   background-position: center;
-<<<<<<< HEAD
-  
-=======
-  opacity: 0.2;
->>>>>>> 04678f6c11e7f9955a252a560c07ea1a8a39b192
 }
+
  #wrapper {
   margin: auto;
   padding: 1rem;
@@ -26,7 +22,7 @@ body {
   box-shadow: 2px 2px 2px #999;
 }
 
-nav {
+.mainNav {
   margin: auto;
   padding-bottom: 1rem;
   max-width: 100%;
@@ -35,14 +31,14 @@ nav {
   border-bottom: 1px solid #999;
 }
 
-nav li {
+.mainNav li {
   display: inline;
   border-radius: 5px;
   box-shadow: 1px 1px 1px #999;
   box-shadow: -1px -1px -1px #999;
 }
 
-nav a {
+.mainNav a {
   margin: 1rem;
   padding: 5px;
   text-decoration: none;
@@ -50,6 +46,29 @@ nav a {
 
 main {
   display: flex;
+}
+
+section {
+  width: 70%;
+  padding: .5rem;
+  float:left;
+}
+
+h2 {
+  text-align: left;
+}
+
+p {
+  padding-bottom: 1rem;
+}
+
+footer p {
+  text-align: center;
+}
+
+.contactLinks li {
+  list-style: none; 
+  display: inline;
 }
 
 @media only screen
@@ -60,11 +79,11 @@ main {
   and (min-width:360px)
   and (max-width:1024px) {
     
-  nav li {
+  .mainNav li {
     display: inline;
   }
     
-  nav a {
+  .mainNav a {
     margin: 0.1rem;
   }
 }
@@ -77,13 +96,21 @@ main {
     box-shadow: none;
   }
   
-  nav {
-    width: 100%;  
+  h1 {
+    text-align: center;
   }
   
-  nav li {
+  mainNav {
+    width: 90%;  
+  }
+  
+  mainNav li {
     display: block;
     margin-bottom: .5rem;
   }
   
+  section {
+    margin: .5rem;
+    width: auto;
+  }
 }
