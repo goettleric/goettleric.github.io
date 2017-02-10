@@ -24,7 +24,6 @@ body {
 
 .mainNav {
   margin: auto;
-  padding-bottom: 1rem;
   max-width: 100%;
   text-align: center;
   list-style: none;
@@ -34,13 +33,13 @@ body {
 .mainNav li {
   display: inline;
   border-radius: 5px;
-  box-shadow: 1px 1px 1px #999;
-  box-shadow: -1px -1px -1px #999;
+  box-shadow: 2px 1px 8px #999;
+  
 }
 
 .mainNav a {
-  margin: 1rem;
-  padding: 5px;
+  
+  padding: 2rem;
   text-decoration: none;
 }
 
@@ -49,7 +48,7 @@ main {
 }
 
 section {
-  width: 70%;
+  width: 80%;
   padding: .5rem;
   float:left;
 }
@@ -76,19 +75,23 @@ footer p {
 
 @media only screen
   and (min-width:1024px) {
+    .mainNav li {
+      
+    }
 }
 
 @media only screen 
   and (min-width:360px)
-  and (max-width:1024px) {
-    
+  and (max-width:720px) {
+  
   .mainNav li {
-    display: inline;
+    display: block;
+    margin: auto;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    padding: .2rem;
   }
-    
-  .mainNav a {
-    margin: 0.1rem;
-  }
+  
 }
 
 @media only screen and (max-width: 360px) {
@@ -103,13 +106,14 @@ footer p {
     text-align: center;
   }
   
-  mainNav {
-    width: 90%;  
+  .mainNav {
+    width: 100%;  
   }
   
-  mainNav li {
+  .mainNav li {
     display: block;
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
+    margin-right: 2.2rem;
   }
   
   section {
