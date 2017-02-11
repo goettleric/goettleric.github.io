@@ -58,6 +58,11 @@ main {
   display: flex;
 }
 
+.selfPic {
+  padding: 1rem;
+  width: auto;
+  height: 14rem;
+}
 section {
   width: 80%;
   padding: .5rem;
@@ -104,6 +109,11 @@ footer p {
     margin-bottom: 1rem;
     padding: .2rem;
   }
+  
+    img {
+      display: none;
+    }
+    
  
 }
 
@@ -128,5 +138,9 @@ footer p {
   section {
     margin: .5rem;
     width: auto;
+  }
+  
+  img {
+    display: none;
   }
 }
