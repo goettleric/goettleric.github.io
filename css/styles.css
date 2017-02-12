@@ -80,9 +80,11 @@ p {
 ul li {
   list-style: square;
 }
+
 footer {
   border-top: 1px solid #999;
 }
+
 footer p {
   text-align: center;
 }
