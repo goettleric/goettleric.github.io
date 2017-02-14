@@ -125,7 +125,7 @@ footer p {
     padding: .2rem;
   }
   
-    img {
+    .selfPic {
       display: none;
     }
     
@@ -155,7 +155,7 @@ footer p {
     width: auto;
   }
   
-  img {
+  .selfPic {
     display: none;
   }
 }
