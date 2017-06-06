@@ -26,14 +26,14 @@ h1 {
   max-width: 100%;
   text-align: center;
   list-style: none;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #000;
 }
 
 .mainNav li {
-  margin: auto;
+  margin: .3rem;
   display: inline;
-  border-radius: 5px;
-  box-shadow: 2px 1px 8px #999;
+  padding: .5rem;
+  box-shadow: 2px 1px 8px #000;
 }
 
 .mainNav li:hover {
@@ -69,6 +69,11 @@ section {
   width: 80%;
   padding: .5rem;
   float:left;
+}
+
+#resume {
+  margin: auto;
+  width: auto;
 }
 
 h2 {
@@ -120,9 +125,8 @@ footer p {
   
   .mainNav li {
     display: block;
-    margin-right: 2rem;
-    margin-bottom: 1rem;
-    padding: .2rem;
+    margin: 1rem 2rem 0rem 0rem;
+    padding: .4rem;
   }
   
     .selfPic {
@@ -132,7 +136,8 @@ footer p {
  
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen
+  and (max-width: 360px) {
   
   #wrapper {
     width: 100%;
