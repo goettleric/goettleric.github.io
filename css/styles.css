@@ -13,6 +13,7 @@ h1 {
 }
 
  #wrapper {
+  position: relative;
   margin: auto;
   padding: 1rem;
   width: 80%;
@@ -57,6 +58,7 @@ h1 {
 
 main {
   display: flex;
+  margin: 1rem auto;
 }
 
 .selfPic {
@@ -69,11 +71,15 @@ section {
   width: 80%;
   padding: .5rem;
   float:left;
+  
 }
 
 #resume {
   margin: auto;
   width: auto;
+  padding: 2rem;
+  box-shadow: 2px 1px 9px #999;
+  border: 1px solid 777;
 }
 
 h2 {
@@ -88,12 +94,20 @@ ul li {
   list-style: square;
 }
 
-a img {
+
+.contactLinks img {
   width: 32px;
   height: 32px;
 }
 
+.jet {
+  float: right;
+  clear:both;
+}
+
 footer {
+  position: relative;
+  
   border-top: 1px solid #999;
 }
 
